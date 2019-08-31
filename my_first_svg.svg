@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+        <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20001102//EN"
+         "http://www.w3.org/TR/2000/CR-SVG-20001102/DTD/svg-20001102.dtd">
+         
+         <svg width="600" height="400"
+         xmlns="http://www.w3.org/2000/svg"
+         xmlns:xlink="http://www.w3.org/1999/xlink">
+
+         <defs>
+         <style type="text/css">
+         <![CDATA[
+            text.C { text-anchor:middle; }
+            text.R { text-anchor:end; }
+            text.title { font-size:16px; font-weight:bold;
+                   font-family:Arial,Helvetica,sansserif;
+            }
+            .bar { stroke:#888888; stroke-width:0.5px; }
+            .unordered { fill:#E7CACA; stroke:#B54040; }
+            .sep { stroke:#444444; stroke-width:0.8px; stroke-dasharray:5,3; }
+            .border { stroke: #AAAAAA; stroke-width:3px; fill:#FFFFF0; }
+        ]]> </style>
+         <filter id="bevel"> ... </filter>
+        </defs>
+
+        
+        <text class="title C" x="300" y="30">Insertion Sort</text>
+        
+        <line class="sep" x1="540.0" x2="540.0" y1="370.0" y2="42.0" />
+        
+        <rect id="bar0" class="bar unordered" filter="url(#bevel)"
+        x="30.0" y="295.7"
+        width="20" height="74.35" />
+        
+        <circle id="point99" class="dot" cx="90" cy="120" r="12.5" />
+        
+        <ellipse class="oval" cx="90" cy="120" rx="12.5" ry="15"/>
+        </svg>
